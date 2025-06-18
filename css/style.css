@@ -292,9 +292,33 @@ body {
     color: #34495E;
     text-decoration: underline;
 }
-.icono{
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
+
+.redes-sociales i.bi,
+.top-bar i.bi,
+.redes-sociales a i,
+.redes-custom i.bi {
+    font-size: 25px !important;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.redes-custom i.bi-telephone,
+.redes-custom i.bi-telephone-fill {
+    color: #ffffff;
+    padding-right: 2%;
+    padding-left: 2%;
+    font-size: 20px;
+    padding-top: 10px;
+    height: 25px;
+    width: 25px;
     transition: all 0.2s ease;
+    margin-right: 8px;
+}
+
+.logo1 img{
+    height: 150px;
+    width: 60px;
 }
