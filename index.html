@@ -6,7 +6,7 @@
     <title>Cosas para bebes</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <header class="site-header">
@@ -17,15 +17,12 @@
                     <a href="https://www.facebook.com/">
                         <i class="bi bi-facebook"></i>
                     </a>
-
                     <a href="https://www.instagram.com/">
                         <i class="bi bi-instagram"></i>
                     </a>
-
                     <a href="https://x.com/i/flow/login?lang=en">
                         <i class="bi bi-twitter"></i>
                     </a>
-
                     <a href="https://co.linkedin.com/">
                         <i class="bi bi-linkedin"></i>
                     </a>
@@ -36,49 +33,85 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid" style="background-color: white;">
-            <div class="row">
-                <div class="col-3 redes-custom2">
+        <div class="container-fluid p-0" style="background-color: white;">
+            <div class="row g-0 align-items-center">
+                <div class="col-3 redes-custom2 d-flex align-items-center">
                     <img id="logo1" src="img/logo5.png" alt="logo1" class="logo1">
                 </div>
-                <div class="col-9 redes-custom3">
-                    <nav class="opciones">   
-                        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
-                            <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Consultoría</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Opción 1</a></li>
-                                    <li><a class="dropdown-item" href="#">Opción 2</a></li>
-                                </ul></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Inmuebles</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Empleo</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Cursos</a>
-                                <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Opción 1</a></li>
-                                <li><a class="dropdown-item" href="#">Opción 2</a></li>
-                                </ul></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-                            <li class="nav-item"><a class="nav-link" href="log-in.html">Ingresar</a></li>
-                    </ul>
+                <div class="col-9 redes-custom3 p-0">
+                    <!-- NAVBAR -->
+                    <nav class="navbar navbar-expand-lg p-3">
+                        <div class="container-fluid p-0">
+                            <!-- Botón hamburguesa -->
+                            <button class="navbar-toggler ms-auto me-2 d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" id="menuToggler">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <!-- Menú -->
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                                <ul class="navbar-nav ms-auto">
+                                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Consultoría</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Opción 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Opción 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Inmuebles</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Empleo</a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Cursos</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Opción 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Opción 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="log-in.html">Ingresar</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </nav>
+                    <!-- FIN NAVBAR -->
                 </div>
             </div>
         </div>
     </header>
-        <main class="contenedor-fondo">
+    <main class="contenedor-fondo">
+        <div class="texto-main1">
+            <h4>PROYECTO DE TOPOGRAFIA</h4>
+            <h2>Servicios Y Consultoria</h2>
+            <a href="login.html" class="btn btn-primary btn-lg btn-main">Ver Mas</a>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    // Oculta el botón hamburguesa cuando el menú está abierto
+    document.addEventListener('DOMContentLoaded', function () {
+        var toggler = document.getElementById('menuToggler');
+        var nav = document.getElementById('navbarNavDropdown');
+        if (toggler && nav) {
+            nav.addEventListener('show.bs.collapse', function () {
+                toggler.style.display = 'none';
+            });
+            nav.addEventListener('hide.bs.collapse', function () {
+                toggler.style.display = '';
+            });
+        }
+    });
 
-            <div class="texto-main1">
-                <h4>PROYECTO DE TOPOGRAFIA</h4>
-                <h2>Servicios Y Consultoria</h2>
-                <a href="login.html" class="btn btn-primary btn-lg btn-main">Ver Mas</a>
-            </div>
-        </main>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    function cambiarLogoSegunPantalla() {
+        const logo = document.getElementById("logo1");
+            if (window.innerWidth <= 991.98) {
+                logo.src = "img/logo6recortado.png";
+            } else {
+                logo.src = "img/logo5.png";
+            }
+            }
+
+window.addEventListener("load", cambiarLogoSegunPantalla);
+window.addEventListener("resize", cambiarLogoSegunPantalla);
+</script>
+    </script>
 </body>
 </html>

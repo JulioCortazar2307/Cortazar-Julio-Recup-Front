@@ -384,17 +384,46 @@ body {
 @media (max-width: 991.98px) {
     .navbar-nav {
         background: #fff;
-        padding: 1rem;
+        padding: 0.5rem 0.5rem;
         border-radius: 0 0 10px 10px;
     }
     .navbar-collapse {
         box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
-    .logo-area {
+    .navbar-nav .nav-link {
+        padding: 0.5rem 0.8rem;
+        font-size: 1rem;
+    }
+    .navbar-nav .dropdown-menu {
         min-width: 120px;
-        max-width: 140px;
+        font-size: 0.95rem;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+        border-radius: 6px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     }
-    .logo1 {
-        max-width: 120px;
+    .navbar-toggler {
+        display: block !important;
     }
+}
+
+/* Oculta el botón hamburguesa en escritorio */
+@media (min-width: 992px) {
+    .navbar-toggler {
+        display: none !important;
+    }
+    .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+    }
+}
+
+/* Ajusta el dropdown para que no ocupe todo el ancho en móvil */
+.navbar-nav .dropdown-menu {
+    width: auto;
+    min-width: 120px;
+    max-width: 220px;
+    left: 0;
+    padding-left: 20px;
+    right: auto;
 }
