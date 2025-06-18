@@ -247,3 +247,24 @@ body {
     margin: 0;
     font-size: 14px;
 }
+
+.site-footer .row,
+.site-footer .col-12 {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-footer.pegagoso {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1000;
+    background-color: #b94866;
+    margin: 0;
+    padding: 0;
+}
+.site-footer .d-flex {
+    width: 100%;
+}
