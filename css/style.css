@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.contenedor-entero {
+    background: url('../img/elementos.jpg');
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.redes-sociales {
+    clip-path: polygon(0 0, 100% 0, 98% 100%, 0% 100%);
+    background-color: #0d3b66;
+    display: flex;
+}
+
+.redes-sociales h5 {
+    margin-left: 10px;
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.redes-sociales a {
+    padding: 1%;
+    color: white;
+    gap: 10px;
+    display: flex;
+    text-decoration: none;
+    transition: all 0.2s ease;
+
+}
+
+
+.redes-custom {
+    background-color: #b94866;
+    display: flex;
+}
+
+.redes-custombi-telephone-fill {
+    color: white;
+    padding: 1%;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    transition: all 0.2s ease;
+}
+
+
+
+.redes-custom h5 {
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.redes-custom2 {
+    background-color: #b94866;
+    clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+    max-height: 80px;
+}
+
+.redes-custom3 {
+    background-color: white;
+    max-height: 80px;
+}
+
+
+.container-fluid img {
+    max-width: 70%;
+    height: auto;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+.opciones {
+    justify-content: space-between;
+    color: #f7f7f7;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.opciones a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #34495E;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+
+.opciones li a:hover {
+    color: #b94866;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+.opciones ul {
+    list-style: none;
+    display: flex;
+}
+
+.opciones li {
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 15px;
+    gap: 10px;
+    align-items: end;
+}
+
+.inicio {
+    color: #b94866 !important;
+    font-weight: bold;
+}
+
+.ingresar {
+    color: #b94866 !important;
+    font-weight: bold;
+}
+
+
+.texto-main1 {
+    height: 100vh;
+    background-color: #0008;
+}
+
+.texto-main1 h4 {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 20px;
+    padding-left: 18%;
+    padding-top: 17%;
+
+}
+
+.texto-main1 h2 {
+    font-size: 60px;
+    color: white;
+    margin-left: 18%;
+}
+
+.btn-main {
+    margin-left: 18%;
+}
+
+.btn {
+    border-radius: 0px !important; /* Para quitar el border-radius por defecto de el bottom primary de bootstrap */
+    border: none !important; /* Para quitar el borde por defecto de el bottom primary de bootstrap */
+    background-color: #b94866 !important;
+    color: white !important;
+    width: 150px;
+    height: 55px;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none !important;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.btn:hover {
+    background-color: #34495E !important;
+}
+
