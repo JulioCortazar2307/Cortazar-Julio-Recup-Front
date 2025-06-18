@@ -4,6 +4,10 @@ body {
     overflow: hidden;
 }
 
+.scroll-permitido{
+    overflow: auto;
+}
+
 .contenedor-fondo {
     background: url('../img/elementos.jpg');
     background-size: cover;

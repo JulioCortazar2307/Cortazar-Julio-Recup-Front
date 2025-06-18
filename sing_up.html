@@ -4,8 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrarse</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
-<body>
+<body class="scroll-permitido">
+    <div class="container-fluid" style="background-color: white;">
+            <div class="row">
+                <div class="col-3 redes-custom2">
+                    <a href="index.html"><img id="logo1" src="img/logo5.png" alt="logo1" class="logo1"></a>
+                </div>
+            </div>
+    </div>
+    <div class="contenedor-formulario contenedor-formulario2 container-fluid d-flex">
+        <form action="" method="get" class="formulario-login">
+            <div class="mb-3 align-items-center justify-content-center text-center d-flex">
+                <i class="bi bi-box2"><h2>Informacion Personal</h2></i>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="mb-3">
+                        <label for="number" class="form-label">No.Documento</label>
+                        <input type="number" class="form-control" id="email" name="email" placeholder="obligatorio" required>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre Completo</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="obligatorio" required>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="mb-3">
+                        <label for="number" class="form-label">No.Telefono</label>
+                        <input type="number" class="form-control" id="password" name="password" placeholder="obligatorio" required>
+                </div>
+                    </div>
+                <div class="col-6">
+                    <div class="mb-3 ">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="mb-3 ">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="obligatorio" required>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="mb-3 ">
+                        <label for="password" class="form-label">Profesion</label>
+                        <input type="text" class="form-control" id="profession" name="profession" placeholder="obligatorio" required>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="descripcion" class="form-label">
+                        <i class="fas fa-comment-dots">Descripción del Perfil</i> 
+                        </label>
+                        <textarea class="form-control" id="descripcion" rows="4" placeholder="Describa su perfil profesional y laboral brevemente."></textarea>
+                    </div>
+               </div>
+               <div class="col-12">
+                    <div class="mb-3">
+                        <i class="bi bi-file-earmark-image">Foto </i>
+                        <p>Tipos de archivos permitidos: JPG, JPEG, PNG.</p>
+                        <p>Tamaño máximo 50MB. Resolución recomendada 500px x 500px o superior.</p>
+                        <p>Manteniendo el aspecto cuadrado (1:1)</p>
+                        <input type="file" class="form-control" id="foto" name="foto" accept=".jpg, .jpeg, .png">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mb-3 align items-center justify-content-center text-center">
+                        <p>Los campos con "obligatorio" lo son </p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mb-3 align-items-center justify-content-center text-center">
+                        <button type="submit" class="btn btn-primary"><i class="bi bi-save-fill">Guardar</i></button>
+                    </div>
+                </div>
+                
+
     
 </body>
 </html>
