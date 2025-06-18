@@ -193,11 +193,10 @@ body {
 
 .contenedor-formulario {
     background-color: #ffffff;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 15%;
+    padding-right: 15%;
     padding-top: 15px;
     padding-bottom: 20px;
-    margin-left: 25% ;
     margin-right: auto;
     max-width: 900px;
     margin-top: 10px;
@@ -405,6 +404,33 @@ body {
     .navbar-toggler {
         display: block !important;
     }
+    .contenedor-formulario {
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+        border-top: none;
+    }
+    .logo1 {
+        height: 45px !important;
+        max-width: 120px !important;
+    }
+    .contenedor-formulario h2 {
+        font-size: 1.5rem;
+    }
+    .formulario-login input,
+    .formulario-login button {
+        font-size: 1rem;
+    }
+    .footer,
+    .site-footer {
+        font-size: 12px;
+        padding: 8px 0;
+    }
+    .site-footer .col-12 {
+        padding: 0 10px;
+    }
 }
 
 /* Oculta el botón hamburguesa en escritorio */
@@ -426,4 +452,11 @@ body {
     left: 0;
     padding-left: 20px;
     right: auto;
+}
+
+.logo1 {
+    height: 80px;
+    width: auto;
+    max-width: 100%;
+    margin-left: 10px;
 }
