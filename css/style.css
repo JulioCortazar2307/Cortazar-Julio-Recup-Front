@@ -52,14 +52,7 @@ body {
     display: flex;
 }
 
-.redes-custombi-telephone-fill {
-    color: white;
-    padding: 1%;
-    font-size: 20px;
-    height: 30px;
-    width: 30px;
-    transition: all 0.2s ease;
-}
+
 
 
 
@@ -469,9 +462,20 @@ body {
 .fa-comment-dots,
 .bi-file-earmark-image,
 .bi-chat-dots-fill,
-.bi-save-fill,
+.bi-save-fill{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    color: #B74360;
+}
+
 .bi-box2{
     margin-right: 10px;
     width: 20px;
     height: 20px;
+}
+.form-label{
+    color:#4a4a4a ;
+    font-weight: bold;
+    font-size: 16px;
 }
