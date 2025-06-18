@@ -4,7 +4,7 @@ body {
     overflow: hidden;
 }
 
-.contenedor-entero {
+.contenedor-fondo {
     background: url('../img/elementos.jpg');
     background-size: cover;
     width: 100%;
@@ -184,3 +184,66 @@ body {
     background-color: #34495E !important;
 }
 
+
+
+.contenedor-formulario {
+    background-color: #ffffff;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-left: 25% ;
+    margin-right: auto;
+    max-width: 750px;
+    margin-top: 10px;
+    border-top: solid 1px #5c5f63;
+}
+
+.pegagoso {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.contenedor-formulario h2 {
+    text-align: center;
+    color: #b94866;
+    font-weight: bold;
+}
+.contenedor-formulario form {
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-formulario label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #34495E;
+}
+.contenedor-formulario input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.contenedor-formulario button {
+    padding: 10px;
+    background-color: #b94866;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contenedor-formulario button:hover {
+    background-color: #34495E;
+}
+.footer {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
